@@ -126,6 +126,10 @@
 }
 
 @media screen and (max-width: 992px) {
+  .header .bullets {
+    position: absolute;
+    bottom: -15px;
+  }
   .header .toggle-menu {
     display: block;
     position: absolute;
@@ -342,10 +346,9 @@
 }
 .courses .Feature {
   padding: 50px;
-  margin-left: 10%;
-  margin-right: 10%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   gap: 35px;
 }
 .courses .Feature .sec1 {
